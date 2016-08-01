@@ -1,6 +1,6 @@
-FROM centos:7.2.1511
+FROM centos:latest
 
-MAINTAINER Jasonli
+MAINTAINER t.goto
 
 RUN yum -y install wget epel-release && \
 wget -O /etc/yum.repos.d/cobbler26.repo http://download.opensuse.org/repositories/home:/libertas-ict:/cobbler26/CentOS_CentOS-7/home:libertas-ict:cobbler26.repo && \
